@@ -1,0 +1,7 @@
+Total Sales = SUM(Sales[Price])
+
+Average Sales = AVERAGE(Sales[Price])
+
+Sales This Year = CALCULATE(SUM(Sales[price]), YEAR(Sales[OrderDate]) = 2023)
+
+Sales Growth = DIVIDE([Total Sales] - [Last Year Sales], [Last Year Sales])
